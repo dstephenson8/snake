@@ -1,0 +1,73 @@
+html,body{
+    margin: 10;
+    padding: 10;
+
+}
+
+.grid{
+    
+    width: 400px;
+    height: 400px;
+    border: solid black 1px;
+    display: flex; 
+    flex-wrap: wrap;
+    background-color: black;
+    margin-right: 0;
+}
+
+.square{
+    width: 10px;
+    height: 10px;  
+}
+
+.snake{
+    background-color: #7FFF00;
+    border: 1px black solid; 
+    box-sizing: border-box;
+
+}
+
+.apple{
+    background-color: red;
+}
+
+.specialApple{
+    background-color: yellow;
+
+}
+
+
+
+
+
+li{
+    margin: 0;
+   
+}
+
+h1{
+    margin: 0;
+}
+
+button{
+    margin: 5px;
+}
+
+.container{
+    /* display: absolute;
+    float: left;
+    margin-right: 10px;
+    
+    padding-left: 0; */
+    display: flex;
+    width: 20%;
+    background: grey
+}
+
+.yellow{
+    color: yellow;
+}
+
+.red{
+    color: red;
+}
