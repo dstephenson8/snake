@@ -54,11 +54,11 @@ button{
 }
 
 .container{
-    /* display: absolute;
+    display: absolute;
     float: left;
     margin-right: 10px;
     
-    padding-left: 0; */
+    padding-left: 0; 
     display: flex;
     width: 20%;
     background: grey
