@@ -4,6 +4,17 @@ html,body{
 
 }
 
+.container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.rules{
+    margin-bottom: 2em;
+}
 .grid{
     
     width: 400px;
@@ -13,6 +24,7 @@ html,body{
     flex-wrap: wrap;
     background-color: black;
     margin-right: 0;
+    border-radius: .5rem;
 }
 
 .square{
@@ -24,18 +36,20 @@ html,body{
     background-color: #7FFF00;
     border: 1px black solid; 
     box-sizing: border-box;
+    border-radius: 50%;
 
 }
 
 .apple{
     background-color: red;
+    border-radius: 50%;
 }
 
 .specialApple{
     background-color: yellow;
+    border-radius: 50%;
 
 }
-
 
 
 
@@ -57,12 +71,15 @@ button{
     display: absolute;
     float: left;
     margin-right: 10px;
+    margin-bottom: 1em;
     
     padding-left: 0; 
     display: flex;
     width: 20%;
     background: grey
 }
+
+
 
 .yellow{
     color: orange;
