@@ -1,20 +1,20 @@
 html,body{
-    margin: 10;
-    padding: 10;
+
+  
 
 }
+
 
 .container-main{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
+ 
 
 }
 
-.rules{
-    margin-bottom: 2em;
-}
+ 
 .grid{
     
     width: 400px;
@@ -69,22 +69,24 @@ button{
 
 .container{
     display: absolute;
-    float: left;
+    padding: .25em;
+    /* float: left; */
     margin-right: 10px;
     margin-bottom: 1em;
-    
-    padding-left: 0; 
     display: flex;
-    width: 20%;
-    background: grey
+    justify-content: space-around;
+    min-width: 15%;
+    background: grey;
+    align-items: center;
+    border-radius: .3em;
 }
 
-
-
-.yellow{
-    color: orange;
+h3{
+    font-size: 1.4rem;
 }
 
-.red{
-    color: red;
+li{
+    list-style: none;
+    color: white;
+    font-size: 1.2rem;
 }
